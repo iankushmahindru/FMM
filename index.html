@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- style.css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- responsive.css link -->
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Home | Findmymua</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg pl-md-3 pr-md-5">
+        <a class="navbar-brand" href="index.html"></a>
+        <div class="d-flex align-items-center">
+          <a href="#" class="btn login mr-2 p-0 text-light d-lg-none"
+            ><i class="fa fa-user-circle-o"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars text-light"></i>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav d-flex ml-auto mr-4 mt-2 mt-lg-0 p-sm-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                SERVICES <i class="fa fa-angle-down"></i>
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="mua.html">MUA's</a>
+                <a class="dropdown-item" href="#">Hairstylists</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ARTIST CORNER <i class="fa fa-angle-down"></i>
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="register.html">Register</a>
+                <a class="dropdown-item" href="login.html">Login</a>
+              </div>
+            </li>
+          </ul>
+          <div>
+            <a href="profile.html" class="loginButton"
+              >Login <i class="fa fa-long-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <h3 class="title">
+            Looking for a<br />
+            Makeup Artist?
+          </h3>
+          <h4 class="subtitle">Your search ends here</h4>
+          <p class="description">
+            Choose the best makeup artist, who matches your style, fits your
+            budget, and serves your locality.
+          </p>
+          <a href="#" class="buttonClass">Explore Artists</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="trending-corner">
+      <h4 class="section-heading">Trending Artist</h4>
+      <div class="trending-artist">
+        <button class="moves leftButton" onclick="moveleft()">
+          <i class="fa fa-angle-left"></i>
+        </button>
+        <div class="artists" id="artist1">
+          <img
+            src="https://i.pinimg.com/originals/df/be/e8/dfbee866b98c40ad838d9c43368e04d0.jpg"
+            alt="Artist 1"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <div class="artists" id="artist2">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ03vaChOnXhWwzeJmQur2dUeFwfkJkcs7Nryvk35B3tDHks3CouHcvwBzKXy2tFzKRoPQ&usqp=CAU"
+            alt="Artist 2"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <div class="artists" id="artist3">
+          <img
+            src="https://assets.vogue.com/photos/60872a8a942111a596e0b7b5/master/pass/GettyImages-1232535120.jpg"
+            alt="Artist 3"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <div class="artists" id="artist4">
+          <img
+            src="https://cdn2.stylecraze.com/wp-content/uploads/2014/02/sam-fine.jpg"
+            alt="Artist 4"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <div class="artists" id="artist5">
+          <img
+            src="https://www.pouted.com/wp-content/uploads/2021/08/2021-08-17_014543-450x470.jpg?x71148"
+            alt="Artist 5"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <div class="artists" id="artist6">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlepdMWHxoYsLKOcPQ0-If0yk0kEeUcQIgnCeAd3_76dy5hIXTE1kG78iqPNTDT2jfugA&usqp=CAU"
+            alt="Artist 6"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <div class="artists" id="artist7">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZ53QwWa0fcW7is-Ap8YASN2FWxCffMUFIA&usqp=CAU"
+            alt="Artist 7"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <div class="artists" id="artist8">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR65lhYneLYqLKk9IOYSILGQCJJjp3fqXI_VQUrFxl8nZ2pllb8vQKqoz4VWQrwiXWV0wc&usqp=CAU"
+            alt="Artist 8"
+          />
+          <div class="share">
+            <i class="fa fa-heart-o mx-1"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+        <button class="moves rightButton" onclick="moveright()">
+          <i class="fa fa-angle-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="whats-new">
+      <div class="container">
+        <h4 class="section-heading">What's New</h4>
+        <div class="row d-flex justify-content-between align-items-center">
+          <a href="#" class="card">
+            <img
+              class="h-50"
+              src="assets/blog-everywhere.webp"
+              alt="Blog everywhere"
+            />
+            <div class="card-body">
+              <h5>Now You Can Blog from Everywhere</h5>
+              <p class="card-text">
+                We’ve made it quick and convenient for you to manage your blog
+                from anywhere. In this blog post, we’ll share the ways you can
+                post...
+              </p>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <img class="h-50" src="assets/beauty-blog.webp" alt="Beauty blog" />
+            <div class="card-body">
+              <h5>Design a Beautiful Blog</h5>
+              <p class="card-text">
+                When it comes to design, the Wix Blog has everything you need to
+                create beautiful posts that will grab your reader's attention.
+                Check...
+              </p>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <img
+              class="h-50"
+              src="assets/blog-community.webp"
+              alt="Blog community"
+            />
+            <div class="card-body">
+              <h5>Grow Your Blog Community</h5>
+              <p class="card-text">
+                With Wix Blog, you’re not only sharing your voice with the
+                world, you can also grow an active online community. To let
+                readers sign...
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-lg-start text-white" style="background-color: #101010">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-between p-4"
+        style="background-color: #d45d4a"
+      >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white mx-2">
+            <i class="fa fa-facebook-official"></i>
+          </a>
+          <a href="" class="text-white mx-2">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          <a href="" class="text-white mx-2">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="" class="text-white mx-2">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section>
+        <div class="container text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">FindMyMua</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="
+                  width: 60px;
+                  background-color: hsl(0, 52%, 60%);
+                  height: 2px;
+                "
+              />
+              <p class="text-justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                hic inventore consectetur alias modi accusantium eveniet
+                deleniti cum at.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Quick Links</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="
+                  width: 60px;
+                  background-color: hsl(0, 52%, 60%);
+                  height: 2px;
+                "
+              />
+              <p>
+                <a href="#!" class="text-white">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">About</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Services</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Works</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Blogs</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Contact</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Latest Blogs</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="
+                  width: 60px;
+                  background-color: hsl(0, 52%, 60%);
+                  height: 2px;
+                "
+              />
+              <div
+                class="blog d-flex align-items-top mb-4"
+                style="width: 17rem; height: 5rem"
+              >
+                <div class="mr-3">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2mPu-9wlNOV17oogRzBZMjW8ZfiYNNZFCw&usqp=CAU"
+                    alt=""
+                    style="width: 100%; height: 90%; border-radius: 4px"
+                  />
+                </div>
+                <div>
+                  <a href="#"
+                    >Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <p class="date">09 April 2012</p>
+                </div>
+              </div>
+
+              <div
+                class="blog d-flex justify-content-between align-items-top"
+                style="width: 17rem; height: 5rem"
+              >
+                <div class="mr-3">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiKtB0787zq9loIwMrgyQqa7tfaKy5E9_M3A&usqp=CAU"
+                    alt=""
+                    style="width: 100%; height: 90%; border-radius: 4px"
+                  />
+                </div>
+                <div>
+                  <a href="#"
+                    >Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <p class="date">09 April 2012</p>
+                </div>
+              </div>
+            </div>
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Have a Questions?</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="
+                  width: 60px;
+                  background-color: hsl(0, 52%, 60%);
+                  height: 2px;
+                "
+              />
+              <div>
+                <div class="d-flex justify-content-evenly align-items-top">
+                  <i class="fa fa-map-marker mr-3"></i>
+                  <span>
+                    203 Fake St. Mountain View,<br />
+                    San Fransico, California,<br />
+                    USA
+                  </span>
+                </div>
+                <div class="d-flex justify-content-evenly align-items-top my-4">
+                  <i class="fa fa-phone mr-3"></i>
+                  <span> +2 392 3929 210 </span>
+                </div>
+                <div class="d-flex justify-content-evenly align-items-top">
+                  <i class="fa fa-send mr-3"></i>
+                  <span>info@yourdomain.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 1)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">FindMyMua</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.onscroll = function () {
+        navFix();
+      };
+
+      function navFix() {
+        if (
+          document.body.scrollTop > 0 ||
+          document.documentElement.scrollTop > 0
+        ) {
+          document.querySelector(".navbar").style.background = "black";
+        } else {
+          document.querySelector(".navbar").style.background = "unset";
+        }
+      }
+
+      const trendingArtist = document.querySelector(".trending-artist");
+
+      window.onload = function () {
+        show();
+      };
+      var left = 1;
+      var right = 5;
+
+      function show() {
+        for (i = left; i <= right; i++) {
+          document.getElementById("artist" + i).style.display = "inline-block";
+        }
+      }
+
+      function moveleft() {
+        if (left <= 3 && right <= 7) {
+          document.getElementById("artist" + left).style.display = "none";
+          left += 1;
+          right += 1;
+
+          for (i = left; i <= right; i++) {
+            document.getElementById("artist" + i).style.display =
+              "inline-block";
+          }
+        } else {
+          return;
+        }
+      }
+
+      function moveright() {
+        if (left >= 2 && right >= 6) {
+          document.getElementById("artist" + right).style.display = "none";
+          left -= 1;
+          right -= 1;
+
+          for (i = left; i <= right; i++) {
+            document.getElementById("artist" + i).style.display =
+              "inline-block";
+          }
+        } else {
+          return;
+        }
+      }
+    </script>
+  </body>
+</html>

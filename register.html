@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- style.css link -->
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="register-style.css" />
+
+    <title>Register|Findmymua</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg pl-md-3 pr-md-5">
+      <a class="navbar-brand" href="#"></a>
+      <div class="d-flex align-items-center">
+        <a href="#" class="btn login mr-2 p-0 text-light d-lg-none"
+          ><i class="fa fa-user-circle-o"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars text-light"></i>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav d-flex ml-auto mr-4 mt-2 mt-lg-0 p-sm-5">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              SERVICES <i class="fa fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item active" href="mua.html"
+                >MUA's <span class="sr-only">(current)</span></a
+              >
+              <a class="dropdown-item" href="#">Hairstylists</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOGS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              ARTIST CORNER <i class="fa fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="register.html">Register</a>
+              <a class="dropdown-item" href="login.html">Login</a>
+            </div>
+          </li>
+        </ul>
+        <div>
+          <a href="#" class="loginButton"
+            >Login <i class="fa fa-long-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <form>
+      h2
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="inputPassword4"
+            placeholder="Password"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress"
+          placeholder="1234 Main St"
+        />
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Address 2</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress2"
+          placeholder="Apartment, studio, or floor"
+        />
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" />
+          <label class="form-check-label" for="gridCheck"> Check me out </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+  </body>
+  <footer class="text-lg-start text-white" style="background-color: #101010">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-between p-4"
+      style="background-color: #d45d4a"
+    >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white mx-2">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+        <a href="" class="text-white mx-2">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+        <a href="" class="text-white mx-2">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="" class="text-white mx-2">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section>
+      <div class="container text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">FindMyMua</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: hsl(0, 52%, 60%);
+                height: 2px;
+              "
+            />
+            <p class="text-justify">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas hic
+              inventore consectetur alias modi accusantium eveniet deleniti cum
+              at.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Quick Links</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: hsl(0, 52%, 60%);
+                height: 2px;
+              "
+            />
+            <p>
+              <a href="#!" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">About</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Works</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Blogs</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Contact</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Latest Blogs</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: hsl(0, 52%, 60%);
+                height: 2px;
+              "
+            />
+            <div
+              class="blog d-flex align-items-top mb-4"
+              style="width: 17rem; height: 5rem"
+            >
+              <div class="mr-3">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2mPu-9wlNOV17oogRzBZMjW8ZfiYNNZFCw&usqp=CAU"
+                  alt=""
+                  style="width: 100%; height: 90%; border-radius: 4px"
+                />
+              </div>
+              <div>
+                <a href="#"
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <p class="date">09 April 2012</p>
+              </div>
+            </div>
+
+            <div
+              class="blog d-flex justify-content-between align-items-top"
+              style="width: 17rem; height: 5rem"
+            >
+              <div class="mr-3">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiKtB0787zq9loIwMrgyQqa7tfaKy5E9_M3A&usqp=CAU"
+                  alt=""
+                  style="width: 100%; height: 90%; border-radius: 4px"
+                />
+              </div>
+              <div>
+                <a href="#"
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <p class="date">09 April 2012</p>
+              </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Have a Questions?</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: hsl(0, 52%, 60%);
+                height: 2px;
+              "
+            />
+            <div>
+              <div class="d-flex justify-content-evenly align-items-top">
+                <i class="fa fa-map-marker mr-3"></i>
+                <span>
+                  203 Fake St. Mountain View,<br />
+                  San Fransico, California,<br />
+                  USA
+                </span>
+              </div>
+              <div class="d-flex justify-content-evenly align-items-top my-4">
+                <i class="fa fa-phone mr-3"></i>
+                <span> +2 392 3929 210 </span>
+              </div>
+              <div class="d-flex justify-content-evenly align-items-top">
+                <i class="fa fa-send mr-3"></i>
+                <span>info@yourdomain.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 1)">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">FindMyMua</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    window.onscroll = function () {
+      navFix();
+    };
+
+    function navFix() {
+      if (
+        document.body.scrollTop > 0 ||
+        document.documentElement.scrollTop > 0
+      ) {
+        document.querySelector(".navbar").style.background = "black";
+      } else {
+        document.querySelector(".navbar").style.background = "unset";
+      }
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function () {
+        iEL = this.querySelector("i");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+          iEL.classList.remove("up");
+          iEL.classList.add("down");
+        } else {
+          dropdownContent.style.display = "block";
+          iEL.classList.remove("down");
+          iEL.classList.add("up");
+        }
+      });
+    }
+    const prevBtns = document.querySelectorAll(".btn-prev");
+    const nextBtns = document.querySelectorAll(".btn-next");
+    const progress = document.getElementById("progress");
+    const formSteps = document.querySelectorAll(".form-step");
+    const progressSteps = document.querySelectorAll(".progress-step");
+
+    let formStepsNum = 0;
+
+    nextBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        formStepsNum++;
+        updateFormSteps();
+        updateProgressbar();
+      });
+    });
+
+    prevBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        formStepsNum--;
+        updateFormSteps();
+        updateProgressbar();
+      });
+    });
+
+    function updateFormSteps() {
+      formSteps.forEach((formStep) => {
+        formStep.classList.contains("form-step-active") &&
+          formStep.classList.remove("form-step-active");
+      });
+
+      formSteps[formStepsNum].classList.add("form-step-active");
+    }
+
+    function updateProgressbar() {
+      progressSteps.forEach((progressStep, idx) => {
+        if (idx < formStepsNum + 1) {
+          progressStep.classList.add("progress-step-active");
+        } else {
+          progressStep.classList.remove("progress-step-active");
+        }
+      });
+
+      const progressActive = document.querySelectorAll(".progress-step-active");
+
+      progress.style.width =
+        ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + "%";
+    }
+  </script>
+</html>
