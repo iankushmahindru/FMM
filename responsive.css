@@ -68,6 +68,11 @@
   header .description {
     text-align: justify;
   }
+  .navbar-nav {
+    margin-top: 0 !important;
+    padding: 0.6em 0.3em !important;
+    background-color: #000;
+  }
   header .navbar-collapse {
     background-color: #000 !important;
     width: 100% !important;
