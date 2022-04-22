@@ -1,267 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <!-- Font-Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- style.css link -->
     <link rel="stylesheet" href="style.css" />
     <!-- responsive.css link -->
     <link rel="stylesheet" href="responsive.css" />
 
-    <link rel="stylesheet" href="register-style.css" />
+    <title>Register | Findmymua</title>
+</head>
 
-    <title>Register |Findmymua</title>
-  </head>
-  <body>
+<body>
     <nav class="navbar navbar-expand-lg pl-md-3 pr-md-5">
-      <a class="navbar-brand" href="#"></a>
-      <div class="d-flex align-items-center">
-        <a href="#" class="btn login mr-2 p-0 text-light d-lg-none"
-          ><i class="fa fa-user-circle-o"></i
+        <a class="navbar-brand" href="index.html"></a>
+        <div class="d-flex align-items-center">
+            <a href="#" class="btn login mr-2 p-0 text-light d-lg-none"><i class="fa fa-user-circle-o"></i
         ></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars text-light"></i>
         </button>
-      </div>
+        </div>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav d-flex ml-auto mr-4 mt-2 mt-lg-0 p-sm-5">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav d-flex ml-auto mr-4 mt-2 mt-lg-0 p-sm-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               SERVICES <i class="fa fa-angle-down"></i>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item active" href="mua.html"
-                >MUA's <span class="sr-only">(current)</span></a
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item active" href="mua.html">MUA's <span class="sr-only">(current)</span></a
               >
               <a class="dropdown-item" href="#">Hairstylists</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BLOGS</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BLOGS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               ARTIST CORNER <i class="fa fa-angle-down"></i>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="register.html">Register</a>
-              <a class="dropdown-item" href="login.html">Login</a>
-            </div>
-          </li>
-        </ul>
-        <div>
-          <a href="#" class="loginButton"
-            >Login <i class="fa fa-long-arrow-right"></i
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="register.html">Register</a>
+                        <a class="dropdown-item" href="login.html">Login</a>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <a href="#" class="loginButton">Login <i class="fa fa-long-arrow-right"></i
           ></a>
+            </div>
         </div>
-      </div>
     </nav>
 
     <div class="main_div">
-      <div class="box">
-        <h1>Register</h1>
-        <form action="">
-          <div class="input-box">
-            <input
-              type="password"
-              name="password"
-              id="name"
-              autocomplete="off"
-              required
-            />
-            <label for="Password">Username</label>
-          </div>
-          <div class="input-box">
-            <input
-              type="text"
-              name="Username"
-              id="name"
-              autocomplete="off"
-              required
-            />
-            <label for="Username">Email</label>
-          </div>
-          <div class="input-box">
-            <input
-              type="password"
-              name="password"
-              id="name"
-              autocomplete="off"
-              required
-            />
-            <label for="Password">Password</label>
-          </div>
-          <div class="input-box">
-            <input
-              type="password"
-              name="password"
-              id="name"
-              autocomplete="off"
-              required
-            />
-            <label for="Password">Repeat Password</label>
-          </div>
-          <input type="submit" value="Register" />
-          <div style="margin-top: 10px; color: #fff; font-size: small">
-            Have an account already?
-            <a href="login.html" style="color: #d86f60">Login</a>
-          </div>
-        </form>
-      </div>
+        <div class="box">
+            <h1>Register</h1>
+            <form action="">
+                <div class="input-box">
+                    <input type="password" name="password" id="name" autocomplete="off" required />
+                    <label for="Password">Username</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="Username" id="name" autocomplete="off" required />
+                    <label for="Username">Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" id="name" autocomplete="off" required />
+                    <label for="Password">Password</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" id="name" autocomplete="off" required />
+                    <label for="Password">Repeat Password</label>
+                </div>
+                <input type="submit" value="Register" />
+                <div style="margin-top: 10px; color: #fff; font-size: small">
+                    Have an account already?
+                    <a href="login.html" style="color: #d86f60">Login</a>
+                </div>
+            </form>
+        </div>
     </div>
     <footer class="text-lg-start text-white" style="background-color: #101010">
-      <!-- Section: Social media -->
-      <section
-        class="d-flex justify-content-between p-4"
-        style="background-color: #d45d4a"
-      >
-        <!-- Left -->
-        <div class="me-5">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        <!-- Left -->
-
-        <!-- Right -->
-        <div>
-          <a href="" class="text-white mx-2">
-            <i class="fa fa-facebook-official"></i>
-          </a>
-          <a href="" class="text-white mx-2">
-            <i class="fa fa-twitter-square"></i>
-          </a>
-          <a href="" class="text-white mx-2">
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a href="" class="text-white mx-2">
-            <i class="fa fa-linkedin-square"></i>
-          </a>
-        </div>
-        <!-- Right -->
-      </section>
-      <!-- Section: Social media -->
-
-      <!-- Section: Links  -->
-      <section>
-        <div class="container text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <h6 class="text-uppercase fw-bold">FindMyMua</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="
-                  width: 60px;
-                  background-color: hsl(0, 52%, 60%);
-                  height: 2px;
-                "
-              />
-              <p class="text-justify">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                hic inventore consectetur alias modi accusantium eveniet
-                deleniti cum at.
-              </p>
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #d45d4a">
+            <!-- Left -->
+            <div class="me-5">
+                <span>Get connected with us on social networks:</span>
             </div>
-            <!-- Grid column -->
+            <!-- Left -->
 
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Quick Links</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="
-                  width: 60px;
-                  background-color: hsl(0, 52%, 60%);
-                  height: 2px;
-                "
-              />
-              <p>
-                <a href="#!" class="text-white">Home</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">About</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Services</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Works</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Blogs</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Contact</a>
-              </p>
+            <!-- Right -->
+            <div>
+                <a href="" class="text-white mx-2">
+                    <i class="fa fa-facebook-official"></i>
+                </a>
+                <a href="" class="text-white mx-2">
+                    <i class="fa fa-twitter-square"></i>
+                </a>
+                <a href="" class="text-white mx-2">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="" class="text-white mx-2">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
             </div>
-            <!-- Grid column -->
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
 
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Latest Blogs</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="
+        <!-- Section: Links  -->
+        <section>
+            <div class="container text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">FindMyMua</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="
                   width: 60px;
                   background-color: hsl(0, 52%, 60%);
                   height: 2px;
-                "
-              />
-              <div
-                class="blog d-flex align-items-top mb-4"
-                style="width: 17rem; height: 5rem"
-              >
-                <div class="mr-3">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2mPu-9wlNOV17oogRzBZMjW8ZfiYNNZFCw&usqp=CAU"
-                    alt=""
-                    style="width: 100%; height: 90%; border-radius: 4px"
-                  />
-                </div>
-                <div>
-                  <a href="#"
-                    >Lorem, ipsum dolor sit amet consectetur adipisicing
+                " />
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas hic inventore consectetur alias modi accusantium eveniet deleniti cum at.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Quick Links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="
+                  width: 60px;
+                  background-color: hsl(0, 52%, 60%);
+                  height: 2px;
+                " />
+                        <p>
+                            <a href="#!" class="text-white">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">About</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Services</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Works</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Blogs</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Contact</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Latest Blogs</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="
+                  width: 60px;
+                  background-color: hsl(0, 52%, 60%);
+                  height: 2px;
+                " />
+                        <div class="blog d-flex align-items-top mb-4" style="width: 17rem; height: 5rem">
+                            <div class="mr-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2mPu-9wlNOV17oogRzBZMjW8ZfiYNNZFCw&usqp=CAU" alt="" style="width: 100%; height: 90%; border-radius: 4px" />
+                            </div>
+                            <div>
+                                <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing
                     elit.</a
                   >
                   <p class="date">09 April 2012</p>
@@ -329,59 +250,48 @@
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 1)">
         © 2020 Copyright:
         <a class="text-white" href="https://mdbootstrap.com/">FindMyMua</a>
-      </div>
-      <!-- Copyright -->
+                            </div>
+                            <!-- Copyright -->
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
-      window.onscroll = function () {
-        navFix();
-      };
+        window.onscroll = function() {
+            navFix();
+        };
 
-      function navFix() {
-        if (
-          document.body.scrollTop > 0 ||
-          document.documentElement.scrollTop > 0
-        ) {
-          document.querySelector(".navbar").style.background = "black";
-        } else {
-          document.querySelector(".navbar").style.background = "unset";
+        function navFix() {
+            if (
+                document.body.scrollTop > 0 ||
+                document.documentElement.scrollTop > 0
+            ) {
+                document.querySelector(".navbar").style.background = "black";
+            } else {
+                document.querySelector(".navbar").style.background = "unset";
+            }
         }
-      }
 
-      var dropdown = document.getElementsByClassName("dropdown-btn");
-      var i;
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
 
-      for (i = 0; i < dropdown.length; i++) {
-        dropdown[i].addEventListener("click", function () {
-          iEL = this.querySelector("i");
-          var dropdownContent = this.nextElementSibling;
-          if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-            iEL.classList.remove("up");
-            iEL.classList.add("down");
-          } else {
-            dropdownContent.style.display = "block";
-            iEL.classList.remove("down");
-            iEL.classList.add("up");
-          }
-        });
-      }
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+                iEL = this.querySelector("i");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                    iEL.classList.remove("up");
+                    iEL.classList.add("down");
+                } else {
+                    dropdownContent.style.display = "block";
+                    iEL.classList.remove("down");
+                    iEL.classList.add("up");
+                }
+            });
+        }
     </script>
-  </body>
+</body>
+
 </html>

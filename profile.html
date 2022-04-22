@@ -1,149 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Font-Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- style.css link -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Profile | Findmymua</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <nav class="navbar navbar-expand-lg pl-md-3 pr-md-5">
-      <a class="navbar-brand" href="index.html"></a>
-      <div class="d-flex align-items-center">
-        <a href="#" class="btn login mr-2 p-0 text-light d-lg-none"
-          ><i class="fa fa-user-circle-o"></i
-        ></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa fa-bars text-light"></i>
-        </button>
-      </div>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav d-flex ml-auto mr-4 mt-2 mt-lg-0 p-sm-5">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >HOME <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Services <i class="fa fa-angle-down"></i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="mua.html">MUA's</a>
-              <a class="dropdown-item" href="#">Hairstylists</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BLOGS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ARTIST CORNER</a>
-          </li>
-        </ul>
-        <div>
-          <a href="#" class="loginButton"
-            >Login <i class="fa fa-long-arrow-right"></i
-          ></a>
+        <a class="navbar-brand" href="index.html"></a>
+        <div class="d-flex align-items-center">
+            <a href="#" class="btn login mr-2 p-0 text-light d-lg-none"><i class="fa fa-user-circle-o"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars text-light"></i>
+          </button>
         </div>
-      </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav d-flex ml-auto mr-4 mt-2 mt-lg-0 p-sm-5">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SERVICES <i class="fa fa-angle-down"></i>
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="mua.html">MUA's</a>
+                        <a class="dropdown-item" href="#">Hairstylists</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ARTIST CORNER</a>
+                </li>
+            </ul>
+            <div>
+                <a href="login.html" class="loginButton">Login <i class="fa fa-long-arrow-right"></i></a>
+            </div>
+        </div>
     </nav>
     <section class="profile">
-      <div class="profile-main mt-5">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7y6nBM0exWM_kqXgm5P_c3sdD9n1_RJ78jToxKcx4&s"
-          alt="Artist Image"
-        />
-        <div class="container">
-          <div class="bio">
-            <h4 class="name">Christian Louboutin</h4>
-            <h5 class="masters-in">Designer</h5>
-            <div class="social-links">
-              <a href="" class="text-white mx-2">
-                <i class="fa fa-facebook-official"></i>
-              </a>
-              <a href="" class="text-white mx-2">
-                <i class="fa fa-twitter-square"></i>
-              </a>
-              <a href="" class="text-white mx-2">
-                <i class="fa fa-instagram"></i>
-              </a>
-              <a href="" class="text-white mx-2">
-                <i class="fa fa-linkedin-square"></i>
-              </a>
+        <div class="profile-main mt-5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7y6nBM0exWM_kqXgm5P_c3sdD9n1_RJ78jToxKcx4&s" alt="Artist Image">
+            <div class="container">
+                <div class="bio">
+                    <h4 class="name">Christian Louboutin</h4>
+                    <h5 class="masters-in">Designer</h5>
+                    <div class="social-links">
+                        <a href="" class="text-white mx-2">
+                            <i class="fa fa-facebook-official"></i>
+                        </a>
+                        <a href="" class="text-white mx-2">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                        <a href="" class="text-white mx-2">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="" class="text-white mx-2">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                    <p class="description">An artist of considerable range, Chet Faker — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure.</p>
+                </div>
             </div>
-            <p class="description">
-              An artist of considerable range, Chet Faker — the name taken by
-              Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-              and records all of his own music, giving it a warm, intimate feel
-              with a solid groove structure.
-            </p>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
-      window.onscroll = function () {
-        navFix();
-      };
+        window.onscroll = function() {
+            navFix()
+        };
 
-      function navFix() {
-        if (
-          document.body.scrollTop > 0 ||
-          document.documentElement.scrollTop > 0
-        ) {
-          document.querySelector(".navbar").style.background = "black";
-        } else {
-          document.querySelector(".navbar").style.background = "unset";
+        function navFix() {
+            if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                document.querySelector(".navbar").style.background = "black";
+            } else {
+                document.querySelector(".navbar").style.background = "unset";
+            }
         }
-      }
     </script>
-  </body>
+</body>
+
 </html>

@@ -1,86 +1,81 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 1024px) {
-  header .row {
-    width: 50%;
-  }
+    header .row {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar-brand {
-    width: 40%;
-  }
-  header .row {
-    padding: 8em 1em 0 2.1em;
-    width: 55%;
-  }
-  header .title {
-    font-size: 2.9em;
-    line-height: 55px;
-    margin-bottom: 0.4em;
-  }
-  header .subtitle {
-    font-size: 1.8em;
-  }
-  header .description {
-    text-align: justify;
-  }
-  header .navbar-collapse {
-    background-color: #000 !important;
-    width: 100% !important;
-  }
-  header .login {
-    font-size: 1.65em;
-  }
-  header .fa-bars {
-    font-size: 1.5em;
-  }
-  header .loginButton {
-    display: none;
-  }
+    .loginButton {
+        display: none !important;
+    }
+    .navbar-brand {
+        width: 40%;
+    }
+    header .row {
+        padding: 8em 1em 0 2.1em;
+        width: 55%;
+    }
+    header .title {
+        font-size: 2.9em;
+        line-height: 55px;
+        margin-bottom: 0.4em;
+    }
+    header .subtitle {
+        font-size: 1.8em;
+    }
+    header .description {
+        text-align: justify;
+    }
+    header .navbar-collapse {
+        background-color: red !important;
+        width: 100% !important;
+    }
+    header .navbar-nav {
+        background-color: red !important;
+    }
+    header .login {
+        font-size: 1.65em;
+    }
+    header .fa-bars {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-  header {
-    height: 550px;
-    background-size: 100% 100%;
-    background-position: 120px 0;
-  }
-  .navbar-brand {
-    width: 60%;
-    height: 100%;
-  }
-  header .row {
-    padding: 6.5em 1em 0 2em;
-    width: 100%;
-  }
-  header .title {
-    color: #d86f60;
-    font-size: 3em;
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    line-height: 55px;
-    margin-bottom: 0.5em;
-  }
-  header .subtitle {
-    font-size: 1.8em;
-  }
-  header .description {
-    text-align: justify;
-  }
-  .navbar-nav {
-    margin-top: 0 !important;
-    padding: 0.6em 0.3em !important;
-    background-color: #000;
-  }
-  header .navbar-collapse {
-    background-color: #000 !important;
-    width: 100% !important;
-  }
-  header .loginButton {
-    display: none;
-  }
-  header .login {
-    font-size: 1.5em;
-  }
+    header {
+        height: 550px;
+        background-size: 100% 100%;
+        background-position: 120px 0;
+    }
+    .navbar-brand {
+        width: 60%;
+        height: 100%;
+    }
+    header .row {
+        padding: 6.5em 1em 0 2em;
+        width: 100%;
+    }
+    header .title {
+        color: #D86F60;
+        font-size: 3em;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        line-height: 55px;
+        margin-bottom: 0.5em;
+    }
+    header .subtitle {
+        font-size: 1.8em;
+    }
+    header .description {
+        text-align: justify;
+    }
+    header .navbar-collapse {
+        background-color: red !important;
+        width: 100% !important;
+    }
+    header .login {
+        font-size: 1.5em;
+    }
 }
